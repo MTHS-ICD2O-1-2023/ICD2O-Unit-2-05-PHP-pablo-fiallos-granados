@@ -36,7 +36,7 @@
               $deductions = $hoursWorked * $hourlyIncome*0.18;
               $pay_rounded = round($pay, 2);
               $deductions_rounded = round($deductions, 2);
-              echo "After deductions, you will make: $" . $pay_rounded . "<br/>" . "Tax deductions = $" . $deductions_rounded;
+              echo "After deductions, you will make: $" . $pay_rounded . "<br/> Tax deductions = $" . $deductions_rounded;
             ?>
           </div>
         </div>
