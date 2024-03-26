@@ -25,7 +25,7 @@
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_of_trinagle.png" alt="Money" width="250" />
+          <img src="./images/income_tax.jpg" alt="tax" width="250" />
         </div>
         <div class="page-content-php">
           <form action="answer.php" method="POST">
