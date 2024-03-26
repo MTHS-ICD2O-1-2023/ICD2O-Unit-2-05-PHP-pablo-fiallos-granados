@@ -34,10 +34,9 @@
               $hourlyIncome = $_POST["hourlyIncome"];
               $pay = $hoursWorked*$hourlyIncome*0.82;
               $deductions = $hoursWorked * $hourlyIncome*0.18;
-              echo "After deductions, you will make: $"; 
-              echo var_dump(round($pay, 2));
-              echo "<br/>" . "Tax deductions = $";
-              echo var_dump(round($deductions, 2));
+              $pay_rounded = round($pay, 2);
+              $deductions_rounded = round($deductions, 2);
+              echo "After deductions, you will make: $" . $pay_rounded . "<br/>" . "Tax deductions = $" . $deductions_rounded;
             ?>
           </div>
         </div>
